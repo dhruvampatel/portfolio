@@ -1,11 +1,9 @@
 import React from 'react';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import {FaGithub, FaHeart, FaLinkedinIn} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/dhruvampatel/'},
+    {Social: <FaGithub /> , link: 'https://github.com/dhruvampatel'}
 ]
 
 const FooterTwo = () => {
@@ -15,10 +13,10 @@ const FooterTwo = () => {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div className="inner">
-                            <div className="logo text-center text-sm-left mb_sm--20">
-                                <a href="/home-one">
-                                    <img src="/assets/images/logo/logo.png" alt="Logo images"/>
-                                </a>
+                            <div className="logo text-left text-sm-left mb_sm--20">
+                                <div className="text">
+                                    <p>Made with <span><FaHeart/></span> by Dhruvam Patel</p>
+                                </div> 
                             </div>
                         </div>
                     </div>
@@ -26,7 +24,7 @@ const FooterTwo = () => {
                         <div className="inner text-center">
                             <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a href={`${val.link}`} target="_BLANK">{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>
@@ -34,7 +32,10 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p>Copyright © 2020 Rainbow-Themes. All Rights Reserved.</p>
+                                <p>Copyright © 2020 All Rights Reserved.</p>
+                            </div>
+                            <div className="text">
+                            <p>This theme is licensed by <a href="https://themeforest.net/item/trydo-creative-agency-react-template/25457315" target="_BLANK" style={{color:"#f9004d"}}>TryDo - Theme Forest</a>.</p>
                             </div>
                         </div>
                     </div>

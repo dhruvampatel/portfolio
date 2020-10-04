@@ -1,36 +1,21 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiCast , FiLayers , FiUsers , FiMonitor, FiPhone, FiSmartphone, FiCode } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiSmartphone />,
+        title: 'Mobile App Development',
+        description: 'I am proficient in developing native apps in Android and IOS and cross-platform apps using react native and similar frameworks.'
     },
     {
-        icon: <FiLayers />,
+        icon: <FiCode />,
         title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: "Whether it is about making simple website or using cutting-edge technology for building top-of-the-class website, I have good hands on web development."
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Software Development',
+        description: "If it is about building software using Java or any other OOP language, I can code smooth."
     }
 ]
 
@@ -45,7 +30,7 @@ class ServiceThree extends Component{
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            <a>
                                 <div className="service service__style--2">
                                     <div className="icon">
                                         {val.icon}

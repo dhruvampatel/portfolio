@@ -14,7 +14,7 @@ import BlogContent from "../elements/blog/BlogContent";
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Welcome to my World',
+        category: '',
         description: '',
         buttonText: '',
         buttonLink: ''
@@ -22,8 +22,8 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
-    const PostList = BlogContent.slice(0 , 3);
+        description = "I'm a technology enthuziast.";
+    //const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
@@ -40,14 +40,14 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jone Doe <br/>
+                                            <h1 className="title">Hi, I’m Dhruvam <br/>
                                             <TextLoop>
-                                                <span> JS Developer.</span>
-                                                <span> UI/UX Designer.</span>
-                                                <span> Content Writter.</span>
+                                                <span> Mobile App<br></br> Developer</span>
+                                                <span> Website Developer</span>
+                                                <span> Java Developer</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>based in USA.</h2>
+                                            <h2>based in Toronto.</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>
@@ -69,7 +69,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/about/dhruvam.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -98,8 +98,8 @@ const PortfolioLanding = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">My Awesome Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <h2 className="title">My Service</h2>
+                                    <p>Here are all the services that I provide.</p>
                                 </div>
                             </div>
                         </div>
@@ -121,20 +121,13 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">My Latest Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <h2 className="title">My Latest Projects</h2>
+                                        <p>The below mentioned are some of my most recent projects done on Android, IOS and React Native.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -142,44 +135,7 @@ const PortfolioLanding = () => {
             </div>
             {/* End Portfolio Area */}
 
-            {/* Start Blog Area */}
-            <div id="blog" className="fix">
-                <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
-                    <div className="container">
-                        <div className="row align-items-end">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div className="section-title text-center">
-                                    <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, <br />but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt--60 mt_sm--40">
-                            {PostList.map((value , i ) => (
-                                <div className="col-lg-4 col-md-6 col-12" key={i}>
-                                    <div className="blog blog-style--1">
-                                        <div className="thumbnail">
-                                            <a href="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                            </a>
-                                        </div>
-                                        <div className="content">
-                                            <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
-                                            <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>    
-                    </div>    
-                </div>
-            </div>
-            {/* End Blog Area */}
-
-            {/* Start COntact Area */}
+            {/* Start Contact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">
                     <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Hire Me." />
