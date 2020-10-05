@@ -2,7 +2,7 @@
   "name": "trydo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dhruvampatel.github.io",
+  "homepage": "http://dhruvampatel.github.io/deploy",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
