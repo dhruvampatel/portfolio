@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d528453d.chunk.css",
-    "main.js": "/static/js/main.dd79430f.chunk.js",
-    "main.js.map": "/static/js/main.dd79430f.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.93b2fae9.chunk.css": "/static/css/2.93b2fae9.chunk.css",
-    "static/js/2.b71dd602.chunk.js": "/static/js/2.b71dd602.chunk.js",
-    "static/js/2.b71dd602.chunk.js.map": "/static/js/2.b71dd602.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ccc10db834e5180518f0b8f8b1c55853.js": "/precache-manifest.ccc10db834e5180518f0b8f8b1c55853.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.93b2fae9.chunk.css.map": "/static/css/2.93b2fae9.chunk.css.map",
-    "static/css/main.d528453d.chunk.css.map": "/static/css/main.d528453d.chunk.css.map",
-    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg"
+    "main.css": "/deploy/static/css/main.d528453d.chunk.css",
+    "main.js": "/deploy/static/js/main.2ff1d424.chunk.js",
+    "main.js.map": "/deploy/static/js/main.2ff1d424.chunk.js.map",
+    "runtime~main.js": "/deploy/static/js/runtime~main.9c98c2a1.js",
+    "runtime~main.js.map": "/deploy/static/js/runtime~main.9c98c2a1.js.map",
+    "static/css/2.22c55d91.chunk.css": "/deploy/static/css/2.22c55d91.chunk.css",
+    "static/js/2.b71dd602.chunk.js": "/deploy/static/js/2.b71dd602.chunk.js",
+    "static/js/2.b71dd602.chunk.js.map": "/deploy/static/js/2.b71dd602.chunk.js.map",
+    "index.html": "/deploy/index.html",
+    "precache-manifest.b3dd043296c811f4c5d7e7a35a2d2681.js": "/deploy/precache-manifest.b3dd043296c811f4c5d7e7a35a2d2681.js",
+    "service-worker.js": "/deploy/service-worker.js",
+    "static/css/2.22c55d91.chunk.css.map": "/deploy/static/css/2.22c55d91.chunk.css.map",
+    "static/css/main.d528453d.chunk.css.map": "/deploy/static/css/main.d528453d.chunk.css.map",
+    "static/media/index.scss": "/deploy/static/media/slick.f97e3bbf.svg"
   }
 }
