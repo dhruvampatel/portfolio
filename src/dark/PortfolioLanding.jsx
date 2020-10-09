@@ -9,7 +9,6 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
 
 const SlideList = [
     {
@@ -30,7 +29,7 @@ const PortfolioLanding = () => {
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
-            <div id="home" className="fix">
+            <div id="home" className="fix" style={{backgroundImage:`url(https://i.imgur.com/CTjcm9f.jpg)`}}>
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
@@ -69,7 +68,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/portfolio/static/media/dhruvam.jpg" alt="About Images"/>
+                                        <img className="w-100" src="https://i.imgur.com/gjpuQFI.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

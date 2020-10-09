@@ -26,20 +26,48 @@ class TabsTwo extends Component{
 
                                     <TabPanel>
                                         <div className="single-tab-content">
-                                            <ul>
-                                                <li>
-                                                    <a href="#service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
-                                                </li>
-                                                <li>
-                                                    <a href="#service">Mobile application interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
-                                                </li>
-                                                <li>
-                                                    <a href="#service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
-                                                </li>
-                                            </ul>
+                                            <div className="row" style={{width:'100%'}}>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/android-os.png" style={{width: 35, height: 35}}/> Android
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/ios/24/000000/mac-os.png" style={{width: 35, height: 35}}/> IOS
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/react-native.png" style={{width: 35, height: 35}}/> React
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" style={{width: 35, height: 35}}/> Java
+                                                </div>
+                                            </div>
+                                            <div className="row" style={{width:'100%', marginTop:20}}>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/swift.png" style={{width: 35, height: 35}}/> Swift
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/css3.png" style={{width: 35, height: 35}}/> CSS
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/html-5.png" style={{width: 35, height: 35}}/> HTML
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/javascript.png" style={{width: 35, height: 35}}/> JS
+                                                </div>
+                                            </div>
+                                            <div className="row" style={{width:'100%', marginTop:20}}>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/kotlin.png" style={{width: 35, height: 35}}/> Kotlin
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                    <img src="https://img.icons8.com/color/48/000000/spring-logo.png" style={{width: 35, height: 35}}/> Spring
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                <img src="https://img.icons8.com/color/48/000000/firebase.png" style={{width: 35, height: 35}}/> Firebase
+                                                </div>
+                                                <div className="col-md-3" style={{color:"white"}}>
+                                                <img src="https://img.icons8.com/color/48/000000/nodejs.png" style={{width: 35, height: 35}}/> Nodejs
+                                                </div>
+                                            </div>
                                         </div>
                                     </TabPanel>
 
