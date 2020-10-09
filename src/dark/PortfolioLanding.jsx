@@ -21,7 +21,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = "I'm a technology enthuziast.";
+        description = "I am Dhruvam Patel. I have a Bachelor’s degree in Computer Applications and I am currently pursuing a post-graduation course in Mobile Application Development and also have experience working as an Android & iOS Developer and React Native Developer.";
     //const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
